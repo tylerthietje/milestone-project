@@ -1,0 +1,180 @@
+/**********BODY**********/
+body{
+	color: black;
+	margin: 0;
+	width: 1400px;
+}
+
+p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin: 0 50px;
+}
+
+p.skills {
+	margin: 0px 50px 25px 50px;
+}
+
+h1 {
+	font-family: 'Source Code Pro', semi-bold;
+	font-size: 72px;
+}
+
+h2 {
+	color: #f70074;
+	font-family: 'Source Code Pro', semi-bold;
+	font-size: 35px;
+	margin: 0px;
+	padding: 50px;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif,;
+	font-size: 32px;
+	color: white;
+	margin: 0 50px;
+}
+
+/**********GRID**********/
+
+.full-width {
+	width: 1400px;
+	/*overflow: auto;*/
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+	height: auto;
+}
+
+.third-width {
+	width: 460px;
+	float: left;
+	text-align: center;
+}
+
+/**********HEADER**********/
+
+nav {
+	height: 50px;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+header h1 {
+	background-image: url("../img/hero-background.png");
+	clear: both;
+	color: white;
+	font-size: 72px;
+	margin: 0px;
+	padding: 200px 100px;
+}
+
+p.nav {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: white;
+	padding: 0px 20px;
+	margin: 0;
+}
+
+header h1 span {
+	color: #f70074;
+}
+
+li {
+	color: white;
+	list-style: none;
+	padding: 0px 20px;
+	margin: 0px;
+	display: inline;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	padding-left: 200px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/**********WORK**********/
+
+#work {
+	height: 100%;
+	background-color: black;
+}
+
+article.example {
+	height: 500px;
+}
+
+div#jubilee-austen {
+	text-align: right;
+}
+
+img {
+	margin: 0 50px;
+}
+
+
+/**********ABOUT ME**********/
+
+#about {
+	background-image: url("../img/about-me.png");
+	height: 550px;
+	clear: both;
+}
+
+p.about {
+	color: black;
+	margin: 0 50px 20px 50px;
+}
+
+/**********CONTACT**********/
+
+#contact {
+	background-color: black;
+	height: 500px;
+}
+
+img.contact {
+	margin: 0px;
+}
+
+ul.contact {
+	padding: 0px;
+}
+
+p#contact-me {
+	padding-top: 200px;
+}
+
+p.bold {
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+/**********FOOTER**********/
+
+footer {
+	background-color: black;
+	height: 50px;
+	width: 1400px;
+	text-align: center;
+	padding: 10px;
+}
+
+p#footer {
+	font-size: 18px;
+}
