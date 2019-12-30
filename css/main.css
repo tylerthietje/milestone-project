@@ -65,7 +65,7 @@ nav {
 
 }
 
-h1.header {
+h1#header {
 	background-image: url("../img/hero-background.png");
 	clear: both;
 	color: white;
